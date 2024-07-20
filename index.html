@@ -4,13 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hospital website Design</title>
-    <!-- font awesome link -->
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <!-- font awesome link
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"> -->
      
      <!-- custom css file link -->
       <link rel="stylesheet" href="css file/style.css">
 
-
+    <!-- Font Awesome CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">  
+    
 </head>
 <body>
     <!-- header section start -->
@@ -34,7 +36,7 @@
      
     <section class="home" id="home">
         <div class="image">
-            <img src="Images/Data extraction-amico (1).png" alt="">
+            <img src="Images/Medicine (1).gif" alt="">
         </div>
         <div class="content">
              <h3>stay safe, stay healthy</h3>
@@ -139,7 +141,7 @@
         <div class="row">
 
             <div class="image">
-                <img src="Images/upload1.png" alt="">
+                <img src="Images/health insurance.gif" alt="">
             </div>
 
             <div class="content">
@@ -203,7 +205,7 @@
                 <h3>amit yadav</h3>
                 <span>expert doctor</span>
                 <div class="share">
-                    <a href="#" class="fas fa-facebook"></a>
+                    <a href="#" class="fas fa-phone"></a>
                     <a href="#" class="fas fa-twitter"></a>
                     <a href="#" class="fas fa-instagram"></a>
                     <a href="#" class="fas fa-linkedin"></a>
@@ -247,18 +249,21 @@
         <div class="row">
 
             <div class="image">
-                <img src="Images/upload1.png" alt="">
+                <img src="Images/Online Doctor (3).gif" alt="">
             </div>
 
-            <form action="https://api.web3forms.com/submit" method="post">
-                <h3>book appointment</h3>
+            <form action="https://api.web3forms.com/submit" method="POST">
                 <input type="hidden" name="access_key" value="261f53de-e937-43e4-a137-5497eada2c51">
-                <input type="text" placeholder="your name" class="box" required>
-                <input type="number" placeholder="your number" class="box" required>
-                <input type="email" placeholder="email" class="box" required>
-                <input type="date"  class="box" required>
-                <input type="submit" value="book now"  class="btn">
+                <!-- <input type="hidden" name="redirect" value="https://yourwebsite.com/thank-you.html" />  -->
+                <h3>book appointment</h3>
+                
+                <input type="text" name="name" placeholder="your name" class="box" required>
+                <input type="number" name="number" placeholder="your number" class="box" required>
+                <input type="email" name="email" placeholder="email" class="box" required>
+                <input type="date" name="appointment_date" class="box" required>
+                <input type="submit" value="book now" class="btn">
             </form>
+            
         </div>
     </section>
     <!-- booking section end -->
@@ -346,23 +351,23 @@
                 <h3>contact info</h3>
                 <a href="#"> <i class="fas fa-phone"></i> +123-456-7894 </a>
                 <a href="#"> <i class="fas fa-phone"></i> +923-659-7534 </a>
-                <a href="#"> <i class="fas fa-envelope"></i> amit974403727250@gmail.com </a>
+                
                 <a href="#"> <i class="fas fa-envelope"></i> amit9744037272@gmail.com </a>
                 <a href="#"> <i class="fas fa-map-marker-alt"></i> Naiganj, jaunpur , Uttar Pradesh 222003 </a>
             </div>
 
             <div class="box">
                 <h3>follow us</h3>
-                <a href="#"> <i class="fas fa-twitter"></i> twitter</a>
-                <a href="#"> <i class="fas fa-instagram"></i> instagram</a>
-                <a href="#"> <i class="fas fa-linkedin"></i> linkdin </a>
-                <a href="#"> <i class="fas fa-facebook"></i> facebook</a>
+                <a href="https://twitter.com/home"> <i class="fas fa-chevron-right" target="_blank"></i> twitter</a>
+                <a href="https://instagram.com/its_amit_yadauvanshi?igshid=YTQwZjQ0NmI0OA==" target="_blank"> <i class="fas fa-chevron-right"></i> instagram</a>
+                <a href="https://www.facebook.com/profile.php?id=100042495376331&mibextid=ZbWKwL" target="_blank"> <i class="fas fa-chevron-right"></i> linkdin </a>
+                <a href="https://www.facebook.com/profile.php?id=100042495376331&mibextid=ZbWKwL"  target="_blank"> <i class="fas fa-chevron-right"></i> facebook</a>
             </div>
 
             
         </div>
 
-        <div class="credit"> created by <span>er. amit kumar yadav</span> |all right reserved</div>
+        <div class="credit"> created by <span><a href="https://amit9569.github.io/Portfolio-Web/">er. amit kumar yadav</span></a> |all right reserved</div>
     </section>
     <!-- fotter section end -->
     
